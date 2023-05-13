@@ -1,0 +1,4 @@
+pyinstaller -F autoweblogin.py
+
+cd /d D:\20281235\AutoWebLogin
+
