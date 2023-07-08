@@ -24,8 +24,8 @@ while (True):
         pass
 
     else:
-        user = '20281235'  # 学号
-        p = '314618'  # 密码
+        user = 'XXXXXXXXXX'  # 学号
+        p = 'XXXXXXXXXX'  # 密码
         t = str(int(round(time.time() * 1000)))  # 毫秒级时间戳
         schoolWebLoginURL = schoolWebURL1 + '/drcom/login?callback=dr' + t + '&DDDDD=' + user + '&upass=' + p + '&0MKKey=123456&R1=0&R3=0&R6=0&para=00&v6ip=&_=' + t
         print('%s %s' % (strftime('%Y-%m-%d'), strftime('%H:%M:%S')))
