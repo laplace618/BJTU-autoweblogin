@@ -19,10 +19,8 @@ while (True):
         now_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print(now_date, "\n*******", '连接正常 :)')
         print("*******", "状态码{}".format(response))  # 打印状态码
-        next_date = (datetime.datetime.now()+datetime.timedelta(seconds=3600)).strftime("%Y-%m-%d %H:%M:%S")
-        print("*******", "下一次检测将在：", next_date)
-        print("*******", "正在等待下一次检测...\n")
-        time.sleep(3600)  #每60min检查一次
+        # print("*******", "正在等待下一次检测...\n")
+        input("******* 请按下回车来执行新的检测...\n")
         pass
 
     else:
@@ -34,4 +32,5 @@ while (True):
         print("*******", '登录成功 :)')
         print("*******", "状态码{}".format(response))  # 打印状态码
         requests.get(schoolWebLoginURL)
-        print("*******", "正在进入循环检测...\n")
+        # print("*******", "正在进入循环检测...\n")
+        input("******* 请按下回车来执行新的检测...\n")

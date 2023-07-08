@@ -1,4 +1,5 @@
 pyinstaller -F autoweblogin.py
+pyinstaller -F auto_anytime.py
 
 cd /d D:\20281235\AutoWebLogin
 
