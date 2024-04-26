@@ -8,8 +8,8 @@ from time import strftime
 # URL地址
 schoolWebURL1 = 'http://10.10.42.3'
 schoolWebURL2 = 'http://10.10.43.3'
-user = '20281235'  # 学号
-p = '314618'  # 密码
+user = 'XXXXXXXX'  # 学号
+p = 'XXXXXXXX'  # 密码
 
 while (True):
     now_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
